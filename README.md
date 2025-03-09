@@ -1,6 +1,8 @@
 
 ## Safe x Ganache x Hardhat Docker container
 
+[![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)](https://hub.docker.com/r/gjeanmart/safe-ganache-node)
+
 A Docker container for launching a local Ethereum node using Ganache and deploying Safe's singleton contracts deterministically. This ensures contracts remain deployed across node restarts without requiring redeployment.
 
 ### Getting started
