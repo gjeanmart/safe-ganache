@@ -8,7 +8,7 @@ A Docker container for launching a local Ethereum node using Ganache and deployi
 **Example with Docker**
 
 ```shell
-docker run --name safe-ganache-node --rm \
+$ docker run --name safe-ganache-node --rm \
 -p 8545:8545 \
 -e CHAIN_ID=1337 \
 -ti gjeanmart/safe-ganache-node:latest
